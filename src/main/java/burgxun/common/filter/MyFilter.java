@@ -1,4 +1,4 @@
-package burgxun.core.filter;
+package burgxun.common.filter;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

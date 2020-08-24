@@ -1,10 +1,10 @@
 package burgxun.webconfig;
 
-import burgxun.core.filter.MyFilter;
-import burgxun.core.interceptor.MyInterceptor;
-import burgxun.core.interceptor.SecondInterceptor;
-import burgxun.core.servlet.ContextListenerServlet;
-import burgxun.core.servlet.MyServlet;
+import burgxun.common.filter.MyFilter;
+import burgxun.common.interceptor.MyInterceptor;
+import burgxun.common.interceptor.SecondInterceptor;
+import burgxun.common.servlet.ContextListenerServlet;
+import burgxun.common.servlet.MyServlet;
 import com.alibaba.fastjson.serializer.SerializerFeature;
 import com.alibaba.fastjson.support.spring.FastJsonHttpMessageConverter;
 import org.slf4j.Logger;
@@ -18,7 +18,6 @@ import org.springframework.http.converter.HttpMessageConverter;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
-import javax.servlet.ServletContextListener;
 import java.nio.charset.Charset;
 import java.util.Collections;
 import java.util.List;
